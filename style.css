@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  background: black;
+  color: white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  margin: 2vh;
+  padding: 0vh 2vh;
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: aqua;
+  text-decoration: underline;
+}
+
+nav ul #Dark_Mode {
+  position: absolute;
+  right: 20%;
+  top: 0;
+}
+
+nav ul #Dark_Mode button {
+  height: 7vh;
+  width: 18vh;
+}
+
+nav ul div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 1.5vh;
+  right: 3vh;
+}
+
+nav ul div input {
+  height: 5vh;
+  border: 2px solid lightblue;
+  text-align: center;
+}
+
+nav ul div i {
+  margin: 0vh 3vh;
+  size: 3vh;
+}
+
+nav ul div i:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
